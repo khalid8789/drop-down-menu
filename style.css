@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.nav{
+display: flex;
+flex-direction: row;
+gap: 40px;
+position: relative;
+top: 30px;
+}
+.login{
+  position: relative;
+  left: 630px;
+}
+.register{
+    position: relative;
+    left: 600px;
+    bottom: 5px;
+    width: 5%;
+    text-align: center;
+    border-radius: 7px;
+    border: 1.3px solid black;
+    background-color: #fff;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+}
+.zin{
+    z-index: 999;
+}
+a:hover{
+    color: darkgrey;
+}
+.image1{
+    position: relative;
+    left: 40px;
+}
+.perform{
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.di{
+    display:none;
+   border-radius: 5px;
+   background-color:#f4f1e6;
+   position: absolute;
+   left: 130px;
+   top: 50px;
+   width: 10%;
+   padding: 5px;
+   z-index: 999;
+   box-shadow: 10px 5px 5px 5px #f4f1e6;
+}
+
+.div1 .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    z-index:999;
+    width: 10%;
+    padding: 5px;
+}
+.todoicon{
+    font-size: 5px;
+    width: 10px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    top: 10px;
+    
+}
+.icons{
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    right: 400px;
+    bottom: 10px;
+}
+.dii{
+    display:none;
+    border-radius: 5px;
+    background-color:#f4f1e6;
+    position: absolute;
+    left: 270px;
+    top: 50px;
+    width: 10%;
+    padding: 5px;
+    z-index: 999;
+    box-shadow: 10px 5px 5px 5px #f4f1e6;
+}
+.div2 .noicons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:#f4f1e6;
+    width: 10%;
+    padding: 5px;
+    z-index: 999;
+}
+.noicons{
+    font-size: 12px;
+    text-align: center;
+}
+
+.forgap{
+    position: relative;
+   top: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 500px;
+   width: 100%;
+}
+
+.forimag{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 150px;
+   gap: 30px;
+   bottom: 20px;
+   width: 50%;
+}
+.hero{
+    width: 50%;
+}
+.desktop{
+    width: 80%;
+   
+}
+.remote{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: inherit;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #1a1a1a;
+    font-family: inherit;
+}
+.learn{
+    position: relative;
+    right:50px ;
+   padding: 5px;
+    width: 25%;
+    text-align: center;
+    border-radius: 7px;
+    border: 1.5px solid black;
+    background-color: #fff;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.svg{
+    width: 50px;
+}
